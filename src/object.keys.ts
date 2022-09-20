@@ -4,7 +4,7 @@ import type { FilterKeys as Filter } from "ts-toolbelt/out/Object/FilterKeys";
 import type { If } from "ts-toolbelt/out/Any/If";
 import type { Match } from "ts-toolbelt/out/Any/_Internal";
 import type { OptionalKeys as Optional } from "ts-toolbelt/out/Object/OptionalKeys";
-import type { PickGroupsOption } from "./keys.internal";
+import type { PickGroupsOption } from "./object.keys.internal";
 import type {
   // eslint-disable-next-line misc/no-shadow -- Ok
   ReadonlyKeys as Readonly
