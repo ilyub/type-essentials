@@ -1,4 +1,4 @@
-[Typescript types](../index.md) / [Exports](../modules.md) / dev/global-types
+[TypeScript types](../index.md) / [Exports](../modules.md) / dev/global-types
 
 # Module: dev/global-types
 

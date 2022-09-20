@@ -1,4 +1,4 @@
-[Typescript types](../index.md) / [Exports](../modules.md) / [function](../modules/function.md) / Constructor
+[TypeScript types](../index.md) / [Exports](../modules.md) / [function](../modules/function.md) / Constructor
 
 # Interface: Constructor<T\>
 

@@ -1,4 +1,4 @@
-[Typescript types](../index.md) / [Exports](../modules.md) / object.keys
+[TypeScript types](../index.md) / [Exports](../modules.md) / object.keys
 
 # Module: object.keys
 
@@ -52,7 +52,7 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `T` | extends `object` |
-| `O` | extends [`PickGroupsOption`](keys_internal.md#pickgroupsoption) |
+| `O` | extends [`PickGroupsOption`](object_keys_internal.md#pickgroupsoption) |
 
 ___
 

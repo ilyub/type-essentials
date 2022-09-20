@@ -1,4 +1,4 @@
-[Typescript types](../index.md) / [Exports](../modules.md) / [function](../modules/function.md) / Async
+[TypeScript types](../index.md) / [Exports](../modules.md) / [function](../modules/function.md) / Async
 
 # Interface: Async<R, A\>
 

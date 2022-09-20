@@ -1,12 +1,12 @@
-[Typescript types](../index.md) / [Exports](../modules.md) / keys.internal
+[TypeScript types](../index.md) / [Exports](../modules.md) / object.keys.internal
 
-# Module: keys.internal
+# Module: object.keys.internal
 
 ## Table of contents
 
 ### Type Aliases
 
-- [PickGroupsOption](keys_internal.md#pickgroupsoption)
+- [PickGroupsOption](object_keys_internal.md#pickgroupsoption)
 
 ## Type Aliases
 

@@ -1,6 +1,6 @@
-[Typescript types](index.md) / Exports
+[TypeScript types](index.md) / Exports
 
-# Typescript types
+# TypeScript types
 
 ## Table of contents
 
@@ -13,9 +13,9 @@
 - [index](modules/index.md)
 - [index.types](modules/index_types.md)
 - [index.types.object](modules/index_types_object.md)
-- [keys.internal](modules/keys_internal.md)
 - [object](modules/object.md)
 - [object.internal](modules/object_internal.md)
 - [object.keys](modules/object_keys.md)
+- [object.keys.internal](modules/object_keys_internal.md)
 - [object.style](modules/object_style.md)
 - [string](modules/string.md)

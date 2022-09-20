@@ -1,4 +1,4 @@
-[Typescript types](../index.md) / [Exports](../modules.md) / [dev/global-types](dev_global_types.md) / configurable
+[TypeScript types](../index.md) / [Exports](../modules.md) / [dev/global-types](dev_global_types.md) / configurable
 
 # Namespace: configurable
 

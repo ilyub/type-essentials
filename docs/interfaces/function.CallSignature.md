@@ -1,4 +1,4 @@
-[Typescript types](../index.md) / [Exports](../modules.md) / [function](../modules/function.md) / CallSignature
+[TypeScript types](../index.md) / [Exports](../modules.md) / [function](../modules/function.md) / CallSignature
 
 # Interface: CallSignature<T\>
 

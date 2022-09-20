@@ -1,2 +1,2 @@
 export declare type PickGroupsOption = "defined" | "optional" | "readonly" | "required" | "undefined" | "writable";
-//# sourceMappingURL=keys.internal.d.ts.map
+//# sourceMappingURL=object.keys.internal.d.ts.map

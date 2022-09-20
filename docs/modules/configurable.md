@@ -1,4 +1,4 @@
-[Typescript types](../index.md) / [Exports](../modules.md) / configurable
+[TypeScript types](../index.md) / [Exports](../modules.md) / configurable
 
 # Module: configurable
 

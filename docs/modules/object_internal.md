@@ -1,4 +1,4 @@
-[Typescript types](../index.md) / [Exports](../modules.md) / object.internal
+[TypeScript types](../index.md) / [Exports](../modules.md) / object.internal
 
 # Module: object.internal
 

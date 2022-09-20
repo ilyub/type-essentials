@@ -1,4 +1,4 @@
-[Typescript types](../index.md) / [Exports](../modules.md) / index
+[TypeScript types](../index.md) / [Exports](../modules.md) / index
 
 # Module: index
 

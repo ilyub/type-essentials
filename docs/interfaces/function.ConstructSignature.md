@@ -1,4 +1,4 @@
-[Typescript types](../index.md) / [Exports](../modules.md) / [function](../modules/function.md) / ConstructSignature
+[TypeScript types](../index.md) / [Exports](../modules.md) / [function](../modules/function.md) / ConstructSignature
 
 # Interface: ConstructSignature<T\>
 

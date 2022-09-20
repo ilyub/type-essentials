@@ -1,4 +1,4 @@
-[Typescript types](../index.md) / [Exports](../modules.md) / [function](../modules/function.md) / Callable
+[TypeScript types](../index.md) / [Exports](../modules.md) / [function](../modules/function.md) / Callable
 
 # Interface: Callable<T\>
 

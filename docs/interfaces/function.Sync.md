@@ -1,4 +1,4 @@
-[Typescript types](../index.md) / [Exports](../modules.md) / [function](../modules/function.md) / Sync
+[TypeScript types](../index.md) / [Exports](../modules.md) / [function](../modules/function.md) / Sync
 
 # Interface: Sync<R, A\>
 
