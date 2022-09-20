@@ -3,7 +3,7 @@
   "intentionallyNotExported": [
     "global.configurable.LocaleName"
   ],
-  "name": "Typescript types",
+  "name": "TypeScript types",
   "out": "docs",
   "tsconfig": "tsconfig-typedoc.json"
 }

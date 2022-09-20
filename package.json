@@ -2,7 +2,7 @@
   "name": "type-essentials",
   "version": "0.1.0",
   "private": false,
-  "description": "Typescript types",
+  "description": "TypeScript types",
   "keywords": [
     "type",
     "typescript"
