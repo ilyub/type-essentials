@@ -4,8 +4,13 @@
   "private": false,
   "description": "TypeScript types",
   "keywords": [
-    "type",
-    "typescript"
+    "tool",
+    "ts",
+    "types",
+    "typesafe",
+    "typescript",
+    "util",
+    "utility"
   ],
   "homepage": "https://github.com/ilyub/type-essentials",
   "bugs": {
