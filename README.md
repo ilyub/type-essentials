@@ -12,17 +12,17 @@
 - [Modules](#modules)
 - [Related packages](#related-packages)
 
-## <a name="overview"></a>Overview
+## [](#overview)Overview
 
 A collection of TypeScript types.
 
-## <a name="installation"></a>Installation
+## [](#installation)Installation
 
 ```sh
 npm install type-essentials
 ```
 
-## <a name="modules"></a>Modules
+## [](#modules)Modules
 
 - [core](https://ilyub.github.io/type-essentials/modules/core.html) &mdash; Core types.
 - [types.fn.\<type\>](https://ilyub.github.io/type-essentials/modules/function.html) &mdash; Function.
@@ -31,18 +31,11 @@ npm install type-essentials
 - [types.object.style.\<type\>](https://ilyub.github.io/type-essentials/modules/object_style.html) &mdash; Object style.
 - [types.string.\<type\>](https://ilyub.github.io/type-essentials/modules/string.html) &mdash; String.
 
-## <a name="related-packages"></a>Related packages
+## [](#related-packages)Related packages
 
-- ESLint:
-  - [eslint-plugin-misc](https://www.npmjs.com/package/eslint-plugin-misc) &mdash; ESLint plugin.
-- Real:
-  - [real-fns](https://www.npmjs.com/package/real-fns) &mdash; TypeScript functions.
-  - [real-classes](https://www.npmjs.com/package/real-classes) &mdash; Classes.
-  - [real-facades](https://www.npmjs.com/package/real-facades) &mdash; Facades (each facade provides interface to pluggable implementation).
-  - [real-framework](https://www.npmjs.com/package/real-framework) &mdash; Facade implementations.
-- Quasar:
-  - [quasar-extension](https://www.npmjs.com/package/quasar-extension) &mdash; Quasar extension.
-- Types:
-  - [type-essentials](https://www.npmjs.com/package/type-essentials) &mdash; TypeScript types.
-- Utils:
-  - [lodash-commonjs-es](https://www.npmjs.com/package/lodash-commonjs-es) &mdash; Combines lodash and lodash-es packages.
+- [eslint-plugin-misc](https://www.npmjs.com/package/eslint-plugin-misc) &mdash; ESLint plugin.
+- [quasar-extension](https://www.npmjs.com/package/quasar-extension) &mdash; Quasar extension.
+- [real-fns](https://www.npmjs.com/package/real-fns) &mdash; A collection of utility functions.
+- [real-classes](https://www.npmjs.com/package/real-classes) &mdash; A collection of utility classes.
+- [real-facades](https://www.npmjs.com/package/real-facades) &mdash; Facades (each facade provides interface to pluggable implementation).
+- [real-service-providers](https://www.npmjs.com/package/real-service-providers) &mdash; Facade implementations.
