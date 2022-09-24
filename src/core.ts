@@ -1,3 +1,5 @@
+/* eslint-disable misc/type-essentials/prefer-undefined-shorthand-type -- Ok */
+
 export type And<A, B, C = unknown, D = unknown, E = unknown, F = unknown> =
   // @prettier
   A & B & C & D & E & F;
@@ -5,18 +7,22 @@ export type And<A, B, C = unknown, D = unknown, E = unknown, F = unknown> =
 // eslint-disable-next-line misc/typescript/no-multi-type-tuples -- Ok
 export type Entry<K extends PropertyKey, T> = readonly [K, T];
 
+// eslint-disable-next-line misc/type-essentials/prefer-IndexedObject -- Ok
 export type IndexedObject<T = unknown> = Rec<PropertyKey, T>;
 
 export type IndexedObjects<T = unknown> = ReadonlyArray<IndexedObject<T>>;
 
+// eslint-disable-next-line misc/type-essentials/prefer-IndexedRecord -- Ok
 export type IndexedRecord<T = unknown> = Rec<string, T>;
 
 export type IndexedRecords<T = unknown> = ReadonlyArray<IndexedRecord<T>>;
 
+// eslint-disable-next-line misc/type-essentials/prefer-NumStr -- Ok
 export type NumStr = number | string;
 
 export type NumStrE = empty | NumStr;
 
+// eslint-disable-next-line misc/type-essentials/prefer-undefined-shorthand-typeName -- Ok
 export type NumStrU = NumStr | undefined;
 
 export type NumStrs = readonly NumStr[];
@@ -35,6 +41,7 @@ export type PartialRecords<K extends PropertyKey, V> =
 
 export type PropertyKeyE = empty | PropertyKey;
 
+// eslint-disable-next-line misc/type-essentials/prefer-undefined-shorthand-typeName -- Ok
 export type PropertyKeyU = PropertyKey | undefined;
 
 export type PropertyKeys = readonly PropertyKey[];
@@ -45,6 +52,7 @@ export type Recs<K extends PropertyKey, V> = ReadonlyArray<Rec<K, V>>;
 
 export type Writable<T> = { -readonly [K in keyof T]: T[K] };
 
+// eslint-disable-next-line misc/type-essentials/prefer-WritableIndexedObject -- Ok
 export type WritableIndexedObject<T = unknown> = WritableRecord<PropertyKey, T>;
 
 export type WritableIndexedObjects<T = unknown> =
@@ -77,6 +85,7 @@ export type booleans = readonly boolean[];
 
 export type empty = null | undefined;
 
+// eslint-disable-next-line misc/type-essentials/prefer-undefined-shorthand-literal -- Ok
 export type falseU = false | undefined;
 
 export type nevers = readonly never[];
@@ -99,6 +108,7 @@ export type stringU = string | undefined;
 
 export type strings = readonly string[];
 
+// eslint-disable-next-line misc/type-essentials/prefer-undefined-shorthand-literal -- Ok
 export type trueU = true | undefined;
 
 export type unknowns = readonly unknown[];

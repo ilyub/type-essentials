@@ -1,3 +1,5 @@
+/* eslint-disable misc/type-essentials/no-ts-toolbelt -- Ok */
+
 import type { And } from "./core";
 import type { Extends } from "ts-toolbelt/out/Any/Extends";
 import type { FilterKeys as Filter } from "ts-toolbelt/out/Object/FilterKeys";

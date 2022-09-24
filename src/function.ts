@@ -48,7 +48,7 @@ export interface ConstructSignature<T extends Constructor> {
    * @param args - Arguments.
    * @returns Result.
    */
-  new(...args: ConstructorParameters<T>): InstanceType<T>;
+  new (...args: ConstructorParameters<T>): InstanceType<T>;
 }
 
 export interface Constructor<T = unknown> {
@@ -58,7 +58,7 @@ export interface Constructor<T = unknown> {
    * @param args - Arguments.
    * @returns Result.
    */
-  new(...args: readonly any[]): T;
+  new (...args: readonly any[]): T;
 }
 
 export interface Sync<R, A extends unknowns = readonly []> {
