@@ -24,7 +24,7 @@ export type { WritableKeys as Writable } from "ts-toolbelt/out/Object/WritableKe
 export type Defined<T extends object> = Filter<T, undefined, "<-extends">;
 
 export type Pick<T extends object, S, M extends Match = "default"> =
-  // prettier-break
+  // @prettier
   Exclude<keyof T, Filter<T, S, M>>;
 
 export type PickGroups<T extends object, O extends PickGroupsOption> = And<
@@ -37,19 +37,19 @@ export type PickGroups<T extends object, O extends PickGroupsOption> = And<
 >;
 
 export type ReadonlyDefined<T extends object> =
-  // prettier-break
+  // @prettier
   PickGroups<T, "defined" | "readonly">;
 
 export type ReadonlyUndefined<T extends object> =
-  // prettier-break
+  // @prettier
   PickGroups<T, "readonly" | "undefined">;
 
 export type Undefined<T extends object> = Pick<T, undefined, "<-extends">;
 
 export type WritableDefined<T extends object> =
-  // prettier-break
+  // @prettier
   PickGroups<T, "defined" | "writable">;
 
 export type WritableUndefined<T extends object> =
-  // prettier-break
+  // @prettier
   PickGroups<T, "undefined" | "writable">;

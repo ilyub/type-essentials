@@ -1,5 +1,5 @@
 export type And<A, B, C = unknown, D = unknown, E = unknown, F = unknown> =
-  // prettier-break
+  // @prettier
   A & B & C & D & E & F;
 
 // eslint-disable-next-line misc/typescript/no-multi-type-tuples -- Ok
@@ -24,13 +24,13 @@ export type NumStrs = readonly NumStr[];
 export type Optional<T> = { [K in keyof T]?: T[K] };
 
 export type Or<A, B, C = never, D = never, E = never, F = never> =
-  // prettier-break
+  // @prettier
   A | B | C | D | E | F;
 
 export type PartialRecord<K extends PropertyKey, V> = { readonly [L in K]?: V };
 
 export type PartialRecords<K extends PropertyKey, V> =
-  // prettier-break
+  // @prettier
   ReadonlyArray<PartialRecord<K, V>>;
 
 export type PropertyKeyE = empty | PropertyKey;
@@ -48,25 +48,25 @@ export type Writable<T> = { -readonly [K in keyof T]: T[K] };
 export type WritableIndexedObject<T = unknown> = WritableRecord<PropertyKey, T>;
 
 export type WritableIndexedObjects<T = unknown> =
-  // prettier-break
+  // @prettier
   ReadonlyArray<WritableIndexedObject<T>>;
 
 export type WritableIndexedRecord<T = unknown> = WritableRecord<string, T>;
 
 export type WritableIndexedRecords<T = unknown> =
-  // prettier-break
+  // @prettier
   ReadonlyArray<WritableIndexedRecord<T>>;
 
 export type WritablePartialRecord<K extends PropertyKey, V> = { [L in K]?: V };
 
 export type WritablePartialRecords<K extends PropertyKey, V> =
-  // prettier-break
+  // @prettier
   ReadonlyArray<WritablePartialRecord<K, V>>;
 
 export type WritableRecord<K extends PropertyKey, V> = { [L in K]: V };
 
 export type WritableRecords<K extends PropertyKey, V> =
-  // prettier-break
+  // @prettier
   ReadonlyArray<WritableRecord<K, V>>;
 
 export type booleanE = empty | boolean;
