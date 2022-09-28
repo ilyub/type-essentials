@@ -12,17 +12,17 @@
 - [Modules](#modules)
 - [Related packages](#related-packages)
 
-## [](#overview)Overview
+## <a id="overview"></a>Overview
 
 A collection of TypeScript types.
 
-## [](#installation)Installation
+## <a id="installation"></a>Installation
 
 ```sh
 npm install type-essentials
 ```
 
-## [](#modules)Modules
+## <a id="modules"></a>Modules
 
 - [core](https://ilyub.github.io/type-essentials/modules/core.html) &mdash; Core types.
 - [types.fn.\<type\>](https://ilyub.github.io/type-essentials/modules/function.html) &mdash; Function.
@@ -31,7 +31,7 @@ npm install type-essentials
 - [types.object.style.\<type\>](https://ilyub.github.io/type-essentials/modules/object_style.html) &mdash; Object style.
 - [types.string.\<type\>](https://ilyub.github.io/type-essentials/modules/string.html) &mdash; String.
 
-## [](#related-packages)Related packages
+## <a id="related-packages"></a>Related packages
 
 - [eslint-plugin-misc](https://www.npmjs.com/package/eslint-plugin-misc) &mdash; ESLint plugin.
 - [quasar-extension](https://www.npmjs.com/package/quasar-extension) &mdash; Quasar extension.
