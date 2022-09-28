@@ -71,11 +71,11 @@
   "dependencies": {
     "ts-toolbelt": "^9.6.0",
     "tslib": "^2.4.0",
-    "types-fix": "^1.0.2"
+    "types-fix": "^1.0.3"
   },
   "devDependencies": {
-    "eslint-plugin-misc": "^1.4.0",
-    "real-config": "^1.9.0"
+    "eslint-plugin-misc": "^1.4.1",
+    "real-config": "^1.11.0"
   },
   "engines": {
     "node": ">=16.0.0",
