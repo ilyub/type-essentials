@@ -1,9 +1,9 @@
 {
+  "name": "TypeScript types",
   "extends": "real-config/typedoc/recommended",
   "intentionallyNotExported": [
     "global.configurable.LocaleName"
   ],
-  "name": "TypeScript types",
   "out": "docs",
   "tsconfig": "tsconfig-typedoc.json"
 }

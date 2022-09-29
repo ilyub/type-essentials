@@ -50,10 +50,6 @@ module.exports = {
       "warn",
       {
         rules: [
-          {
-            filesToLint: ["./*"],
-            hierarchy: [["./jest.config"], ["./jest.config.fast"]]
-          },
           { filesToLint: ["./src/*"], hierarchy: [["./*"], ["./*"]] }
         ]
       }
