@@ -50,7 +50,11 @@ module.exports = {
       "warn",
       {
         rules: [
-          { filesToLint: ["./src/*"], hierarchy: [["./*"], ["./*"]] }
+          {
+            _id: "src",
+            filesToLint: ["./src/*"],
+            hierarchy: [["./*"], ["./*"]]
+          }
         ]
       }
     ]

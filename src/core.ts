@@ -1,4 +1,4 @@
-/* eslint-disable misc/type-essentials/prefer-undefined-shorthand-type -- Ok */
+/* eslint-disable misc/type-essentials/prefer-undefined-shorthand -- Ok */
 
 export type And<A, B, C = unknown, D = unknown, E = unknown, F = unknown> =
   // @prettier
@@ -22,7 +22,6 @@ export type NumStr = number | string;
 
 export type NumStrE = empty | NumStr;
 
-// eslint-disable-next-line misc/type-essentials/prefer-undefined-shorthand-typeName -- Ok
 export type NumStrU = NumStr | undefined;
 
 export type NumStrs = readonly NumStr[];
@@ -41,7 +40,6 @@ export type PartialRecords<K extends PropertyKey, V> =
 
 export type PropertyKeyE = empty | PropertyKey;
 
-// eslint-disable-next-line misc/type-essentials/prefer-undefined-shorthand-typeName -- Ok
 export type PropertyKeyU = PropertyKey | undefined;
 
 export type PropertyKeys = readonly PropertyKey[];
@@ -85,7 +83,6 @@ export type booleans = readonly boolean[];
 
 export type empty = null | undefined;
 
-// eslint-disable-next-line misc/type-essentials/prefer-undefined-shorthand-literal -- Ok
 export type falseU = false | undefined;
 
 export type nevers = readonly never[];
@@ -108,7 +105,6 @@ export type stringU = string | undefined;
 
 export type strings = readonly string[];
 
-// eslint-disable-next-line misc/type-essentials/prefer-undefined-shorthand-literal -- Ok
 export type trueU = true | undefined;
 
 export type unknowns = readonly unknown[];
