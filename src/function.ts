@@ -20,6 +20,10 @@ export type AsyncPromiseSync<R, A extends unknowns = readonly []> =
   // @prettier
   Async<R, A> | Promise<R> | Sync<R, A>;
 
+export type Asyncs<R, A extends unknowns = readonly []> =
+  // @prettier
+  ReadonlyArray<Async<R, A>>;
+
 export interface CallSignature<T extends Callable> {
   /**
    * Call signature.
@@ -61,6 +65,8 @@ export interface Constructor<T = unknown> {
   new (...args: readonly any[]): T;
 }
 
+export type Promises<T> = ReadonlyArray<Promise<T>>;
+
 export interface Sync<R, A extends unknowns = readonly []> {
   /**
    * Function.
@@ -70,3 +76,7 @@ export interface Sync<R, A extends unknowns = readonly []> {
    */
   (...args: A): R;
 }
+
+export type Syncs<R, A extends unknowns = readonly []> =
+  // @prettier
+  ReadonlyArray<Sync<R, A>>;
