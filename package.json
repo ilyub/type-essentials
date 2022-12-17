@@ -70,12 +70,12 @@
   },
   "dependencies": {
     "ts-toolbelt": "^9.6.0",
-    "tslib": "^2.4.0",
+    "tslib": "^2.4.1",
     "types-fix": "^1.0.3"
   },
   "devDependencies": {
-    "eslint-plugin-misc": "^1.7.0",
-    "real-config": "^1.14.0"
+    "eslint-plugin-misc": "^1.8.0",
+    "real-config": "^1.16.0"
   },
   "engines": {
     "node": ">=16.0.0",
