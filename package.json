@@ -74,7 +74,7 @@
     "types-fix": "^1.0.3"
   },
   "devDependencies": {
-    "eslint-plugin-misc": "^1.8.0",
+    "eslint-plugin-misc": "^1.8.1",
     "real-config": "^1.16.0"
   },
   "engines": {
